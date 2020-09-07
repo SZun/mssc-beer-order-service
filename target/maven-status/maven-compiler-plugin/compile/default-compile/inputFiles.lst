@@ -1,6 +1,7 @@
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/BeerOrderLineDto.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/CustomerDto.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/repositories/BeerOrderRepository.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/BeerOrderEventsEnum.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/OrderStatusEnum.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/BeerOrderLine.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/BeerOrderService.java
@@ -12,11 +13,11 @@
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/mappers/BeerOrderLineMapperDecorator.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/mappers/BeerOrderLineMapper.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/BeerDto.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/sm/BeerOrderStateMachineConfig.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/repositories/CustomerRepository.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/repositories/BeerOrderLineRepository.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/BaseItem.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/mappers/BeerOrderMapper.java
-/Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/OrderStatusEnum.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/beer/BeerService.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/BeerOrderServiceImpl.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/bootstrap/BeerOrderBootStrap.java
@@ -27,4 +28,5 @@
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/TastingRoomService.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/Customer.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/config/JmsConfig.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/BeerOrderStatusEnum.java
 /Users/samg.zun/Documents/References/Udemy/mssc-brewery-ws/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/beer/BeerServiceImpl.java
