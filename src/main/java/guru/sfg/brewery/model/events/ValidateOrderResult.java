@@ -7,13 +7,14 @@ import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
+/**
+ * Created by jt on 12/2/19.
+ */
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class ValidateOrderResult {
-
     private UUID orderId;
     private Boolean isValid;
-
 }

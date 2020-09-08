@@ -5,15 +5,20 @@ import guru.sfg.brewery.model.BeerOrderDto;
 
 import java.util.UUID;
 
+/**
+ * Created by jt on 11/29/19.
+ */
 public interface BeerOrderManager {
 
-    BeerOrder newBeerOder(BeerOrder beerOrder);
+    BeerOrder newBeerOrder(BeerOrder beerOrder);
 
-    void processValidationResult(UUID orderId, Boolean isValid);
+    void processValidationResult(UUID beerOrderId, Boolean isValid);
 
-    void beerOrderAllocationPassed(BeerOrderDto beerOrderDto);
+    void beerOrderAllocationPassed(BeerOrderDto beerOrder);
 
-    void beerOrderAllocationPendingInventory(BeerOrderDto beerOrderDto);
+    void beerOrderAllocationPendingInventory(BeerOrderDto beerOrder);
 
-    void beerOrderAllocationFailed(BeerOrderDto beerOrderDto);
+    void beerOrderAllocationFailed(BeerOrderDto beerOrder);
+
+    void beerOrderPickedUp(UUID id);
 }
