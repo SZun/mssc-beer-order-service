@@ -8,6 +8,9 @@ import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.action.Action;
 import org.springframework.stereotype.Component;
 
+/**
+ * Created by jt on 2/25/20.
+ */
 @Slf4j
 @Component
 public class ValidationFailureAction implements Action<BeerOrderStatusEnum, BeerOrderEventEnum> {
@@ -15,6 +18,6 @@ public class ValidationFailureAction implements Action<BeerOrderStatusEnum, Beer
     @Override
     public void execute(StateContext<BeerOrderStatusEnum, BeerOrderEventEnum> context) {
         String beerOrderId = (String) context.getMessage().getHeaders().get(BeerOrderManagerImpl.ORDER_ID_HEADER);
-        log.error("Compensating Transaction... Validation Failed: {}", beerOrderId);
+        log.error("Compensating Transaction.... Validation Failed: " + beerOrderId);
     }
 }
